@@ -113,13 +113,13 @@ print("Right Shift:", a >> 2)
 print("----------------")
 a = 12
 b = 52
-print( (a & b) >> (a | b))
+print((a & b) >> (a | b))
 
 
 #12 
 x = 2
 y = 5
-print( (x | y) << (x ^ y))
+print((x | y) << (x ^ y))
 
 
 #13
@@ -130,18 +130,18 @@ print((y ^ x) & ( x ^ y))
 #14
 a = 5
 b = 3
-print((a&b) | (a ^ b))
+print((a & b) | (a ^ b))
 
 #15
 a = 23
 b = 45
-print((a|b) ^ (a << 2))
+print((a | b) ^ (a << 2))
 
 
 #16
 x = 12
 y = 5
-print((x << 1) & (y >>  1))
+print((x << 1) & (y >> 1))
 
 
 #17 
@@ -162,7 +162,7 @@ print((a ^ b) & (a | b))
 #20
 f = 22
 g = 19
-print((f | g) & (f ^ g) <<( f >> 1))
+print((f | g) & (f ^ g) <<(f >> 1))
 
 
 
