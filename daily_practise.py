@@ -164,5 +164,49 @@ f = 22
 g = 19
 print((f | g) & (f ^ g) <<(f >> 1))
 
+print("------------------------")
+print("INPUT/OUTPUT FUNCTION")
+print("------------------------")
+
+#example of escape character
+print("hello\nworld")
+print("hello\tworld")
+print("my name is \"vedant\"")
+print("It\'s my birthday today")
+print("C:\\Users")
+print("my name is vedant\ni am from niphad")
+print("my name is vedant\ti am from niphad" )
+print("All \"Students\" are important to school")
+print("----------------")
+print("% formating example")
+x = "vedant"
+print("my name is %s" %x)
+age = 20
+print("my age is %d" %age)
+price = 99.5
+print("price = %.2f"%price)
+print("------------------------")
+print("Dot formatting example")
+print("hello {}".format("vedant"))
+age = 20 
+print("my age is {}".format(age))
+price = 99.5
+print("price = {}".format(price))
+print("my age is {}".format(age))
+price = 99.5
+print("price = {:.4f}".format(price))
+print("-----------------------------------")
+print("f - string example")
+name = "vedant"
+print(f"my name is {name}")
+age = 20
+print(f"my age is {age}")
+price = 99.5
+print(f"price = {price:.4f}")
+
+
+
+
+
 
 
