@@ -293,5 +293,23 @@ print("Score = {}".format(score))
 language = "Python"
 print("Language = {}".format(language))
 
+#example of Input function
+
+name = input("Enter your name :")
+print(name)
+
+
+#2
+age = input("Enter  your age")
+print(age)
+
+
+#3
+
+a = int(input("Enter a number :"))
+b = int(input("Enter a number :"))
+print(a+b)
+
+
 
 
