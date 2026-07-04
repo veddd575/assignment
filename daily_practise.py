@@ -204,6 +204,26 @@ print(f"my age is {age}")
 price = 99.5
 print(f"price = {price:.4f}")
 
+# if elif else 
+battery = int(input("Enter battery % :  "))
+if battery <= 20 :
+    print("Connet charger")
+elif battery <= 50 :
+    print("Battery is much more")
+elif battery <= 100:
+    print("NO need to charge")
+else :
+    print("In valid Battery %")
+
+ticket = input("Ticket (yes/no)? :")
+if ticket == "yes":
+    print("Ticket comforied")
+elif ticket == "no":
+    print("Ticket not comfomried")
+else :
+    print("Not ticket avalible")
+    
+
 
 
 
