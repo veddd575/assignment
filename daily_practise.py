@@ -206,23 +206,48 @@ print(f"price = {price:.4f}")
 
 # if elif else 
 battery = int(input("Enter battery % :  "))
-if battery <= 20 :
+if 0 < battery <= 20 :
     print("Connet charger")
-elif battery <= 50 :
+elif 20 < battery <= 50 :
     print("Battery is much more")
-elif battery <= 100:
+elif  50 < battery <= 100:
     print("NO need to charge")
 else :
     print("In valid Battery %")
 
 ticket = input("Ticket (yes/no)? :")
 if ticket == "yes":
-    print("Ticket comforied")
+    print("Ticket comformied")
 elif ticket == "no":
-    print("Ticket not comfomried")
+    print("Ticket not comformied")
 else :
     print("Not ticket avalible")
     
+#3
+num = int(input("Enter a number :"))
+num1 = int(input("Enter a number :"))
+if num > num1 :
+    print("num is greater than num")
+elif num < num1:
+    print("num is smaller than num1")
+else :
+    print("num is equal to num1")
+
+#4
+patient= input("register (yes/no) :")
+doctor = input("avaliability (yes/no) :")
+if patient == "yes" and doctor == "no" :
+    print("no doctor avaliable")
+    if  patient == "no" and doctor == "no":
+        print("No appointment")
+    else :
+        print("Thank you")
+else :
+    print("Come on next day")
+
+
+
+
 
 
 
